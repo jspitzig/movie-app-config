@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://eureka-9fccf79b-2f20-4cd9-9abc-d3d021c2fa8f.cfapps.io/
+
+security:
+  basic:
+    enabled: false
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
